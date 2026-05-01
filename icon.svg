@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#030810"/>
+  <rect width="512" height="512" rx="96" fill="url(#grid)" opacity=".15"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0L0 0 0 40" fill="none" stroke="#0af" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <!-- Hexagon -->
+  <polygon points="256,80 340,128 340,224 256,272 172,224 172,128" 
+    fill="none" stroke="#00e87a" stroke-width="8" opacity=".9"/>
+  <!-- Inner lines - signal bars -->
+  <line x1="200" y1="320" x2="200" y2="420" stroke="#00e87a" stroke-width="18" stroke-linecap="round" opacity=".6"/>
+  <line x1="256" y1="280" x2="256" y2="420" stroke="#00e87a" stroke-width="18" stroke-linecap="round" opacity=".8"/>
+  <line x1="312" y1="300" x2="312" y2="420" stroke="#00e87a" stroke-width="18" stroke-linecap="round"/>
+  <!-- BTC symbol -->
+  <text x="256" y="205" text-anchor="middle" font-family="monospace" font-weight="700" 
+    font-size="80" fill="#00e87a">S</text>
+</svg>
